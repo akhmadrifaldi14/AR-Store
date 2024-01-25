@@ -1,0 +1,130 @@
+.parallax-container{
+	height: 20%;
+	/*max-height: 300px*/
+}
+
+.parallax img{
+	filter: grayscale(1);
+	opacity: 0.5 !important;
+}
+
+.clients img{
+	max-width: 120px;
+	/*height: 70px;*/
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+.coverbody img{
+	padding-top: 20px;
+	max-width: 310px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+
+}
+
+.jarak{
+	/*padding-top: 5px;*/
+	margin-top: 3%;
+/*	margin-top: 600px;*/
+}
+
+.galeryfot img{
+	width: 550px;
+	height: 270px;
+	/*width: 220px;
+	height: 120px;*/
+	/*min-width: 120px;
+	min-height: 20px;*/
+	/*margin-left: 25%;*/
+	/*margin-right: 25% */
+
+}
+
+section, footer{
+	padding: 20px 0;
+}
+.panel1 {
+	height: 10%;
+	opacity: 80%;
+	/*height: 300px;*/
+}
+
+.navbar-fixed, .sidenav{
+	opacity: 95%;
+}
+
+.dropdown-content li{
+	min-height: 64px;
+}
+.dropdown-content li > a{
+	line-height: 33px;
+	text-align: center;
+}
+.test{
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+}
+.carousel{
+	height: 300px;
+	/* width: 700px; */
+	/* position:static; */
+}
+.carousel .carousel-item {
+	width: 500px;
+	height: 300px;
+}
+.paddingedit{
+	padding: 0.1px;
+}
+/* my Collapsible testing*/
+.collapsiblenew{
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+  }
+  
+  /* .active, .collapsiblenew:hover {
+	background-color: #555;
+  } */
+  
+  .collapsiblenew:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .collapsiblenew.active:after {
+	content: "\2212";
+  }
+  
+  .contentnew {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
+
+
+
+/* .parallaxpadding{
+	padding: 10px;
+} */
+
+
+
+/*.panel2 {
+	height: 300px;
+	height: 10%;
+}*/
+/*.bg{
+	<img src="img/banner/banner1.png">
+}
