@@ -83,7 +83,7 @@ section, footer{
 	/* position:static; */
 }
 .carousel .carousel-item {
-	width: 350px;
+	width: 300px;
 	max-width: 500px;
 	height: 270px;
 	max-height: 300px;
